@@ -15,7 +15,7 @@ import { remarkDiagram } from './src/common/remark-diagram.mjs'
 // https://astro.build/config
 export default defineConfig({
   site: 'https://christham.net',
-  base: 'year-template',
+  base: '2023',
   integrations: [icon(), alpinejs(), expressiveCode(), mdx()],
   markdown: {
     extendDefaultPlugins: true,
